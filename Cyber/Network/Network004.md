@@ -1,4 +1,4 @@
-**Traceroute**
+###Traceroute
 
 Sizin gitmek istediğiniz yere ulaşırken hangi bilgisayarlardan/*IP*'lerden adım adım geçtiğinizi gösterir. Local ağlar üzerinde giderken benim paketimin nerelerde takılı kaldığını/ nerelerden geçtiğini anlamamızı sağlayabilir veya aklımızda daha rahat canlandırmamızı sağlar*(network topolojisi)*
 
