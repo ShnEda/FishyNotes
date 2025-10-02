@@ -44,3 +44,40 @@ geçer. Doğrudan RST paketi yollarız ve arkamızda da iz bırakmaz. #ÖNEMLİ
 > zenmap: nmap için grafik arabirimidir.
 ---
 
+### UDP Taramaları
+
+Port 'un kapalı veya filtrelenmiş olduğunu anlayamayız. Genelde son çaredir.
+
+```--reason``` parametresi ne işe yarar? Şunu söyler: Bu port neden açık.
+
+### Tarama Sonuçlarını Kaydetmek
+
+```-Pn```=> TCP Paketlerinden önce o makinenin açık olup olmadığını kontrol ediyor.
+
+```-f```=> Firewall ya da IDS gibim sistemleri atlatmak için TCP paketlerini
+parçalara ayırıyor.
+
+```-T5```=> Tarama hızı, rakam arttıkça hız da artar.
+
+## IP Address Spoofing
+Aslında IP başlığındaki Source IP 'nin değiştirilmesi denebilir. Saldırganımız olsun ve bir TCP paketi olsun; bunun source ve destination IP'leri bulunmakta. Ancak bizim burada yaptığımız kısım source IP yerine başka bir IP yazmamız demek. Cevabını bize yani saldırgana değil yine asıl gönderilecek cihaza yönlendiriliyor. Buradan *şunu* yapabiliriz:
+
+	B sunucusu olsun ve desin ki ben sadece A sunucusundan istek alırım başka kabul etmem. Burada hatırlarsanız seq num vardı, A sunucusuna kapalı porttan Ack yollarsak bize RST dönecek. Sonra IP spoofing ile kendi ip 'mize A sunucu IP' sini yazdık ve B' ye yolladık. Aralarında dönecek işlemler doğrultusunda (RST) portların açık/kapalı durumlarını öğrenebiliriz.
+
+Bunu nmap ile nasıl yapabiliriz?
+
+	-Metasploit  VM'inden Firewall açtık.
+	-sudo nmap -sS 192.168.X.X (VM)
+	-sudo nmap -sA "              (VM)
+	
+	Bundan sonra windows 7 VM 'ini açtık.
+	
+	-sudo nmap -sI 192.168.X.Y 198.168.X.X (1.si zombie makinemiz)
+	
+	Bu şekilde IP spoofing yaparak açık portları görmüş olduk.
+
+```-sV```=>portta çalışan uygulama ve hangi versiyonu olduğunu söylüyor.
+
+```-sO```=> Hedef makinenin desteklediği IP protokollerini tespit eder.
+
+```-O```=> Bizim karşı taraftaki bilgisayarın OS 'ini anlamak için kullanılır.
