@@ -7,6 +7,6 @@ Genel bir ağdaki bir network içerisinde bütün düzenlemeyi sağlar. Kurallar
 ### -Dynamic Filtreleme
 -Network katmanında çalışır, kaynak ve hedef ip adresleri, protokol ve port no göre filtrelerken bağlantı durumlarının takibi yapılabilir.  Burada takip kelimesi çok önemli. Burayı daha zor şekilde bypass lamak gerekebilir.
 ### -Uygulama Katmanı Firewall
--uygulama katmanında çalışır. Protokol datası incelenerek uyg. özelliğine göre incelenebilir.
+-Uygulama katmanında çalışır. Protokol datası incelenerek uyg. özelliğine göre incelenebilir.
 ### -Proxy Firewall
 -Üzerinde çok durulmadı ama kısaca Proxy'ler istemci ile sunucu arasında bir köprü oluşturur ve tam bir oturum analizi yapabilir.
