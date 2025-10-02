@@ -13,10 +13,12 @@ Windows'ta:
 Biz bunu yazıp üzerine * işareti çıkarsa bunun nedeni ya bir switch ya da firewall olabilir. Peki bu yasaklar nasıl atlanılabilir?
 
 1- UDP paketleriyle erişilmeye çalışılabilir
+
 2- -I eklersek ICMP paketleri yollayıp ilerlenebilir
+
 3- -T kullanarak TCP paketleriyle yollanıp ilerlenebilir
 
-+ Port yazıp erişim sağlanmaya çalışılabilir.
+Port yazıp erişim sağlanmaya çalışılabilir.
 
 Peki biz bu sırayla gördüğümüz adresleri nasıl görüyoruz? **TTL**!
 
