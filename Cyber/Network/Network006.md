@@ -62,7 +62,10 @@ parçalara ayırıyor.
 ## IP Address Spoofing
 Aslında IP başlığındaki Source IP 'nin değiştirilmesi denebilir. Saldırganımız olsun ve bir TCP paketi olsun; bunun source ve destination IP'leri bulunmakta. Ancak bizim burada yaptığımız kısım source IP yerine başka bir IP yazmamız demek. Cevabını bize yani saldırgana değil yine asıl gönderilecek cihaza yönlendiriliyor. Buradan *şunu* yapabiliriz:
 
-	B sunucusu olsun ve desin ki ben sadece A sunucusundan istek alırım başka kabul etmem. Burada hatırlarsanız seq num vardı, A sunucusuna kapalı porttan Ack yollarsak bize RST dönecek. Sonra IP spoofing ile kendi ip 'mize A sunucu IP' sini yazdık ve B' ye yolladık. Aralarında dönecek işlemler doğrultusunda (RST) portların açık/kapalı durumlarını öğrenebiliriz.
+	B sunucusu olsun ve desin ki ben sadece A sunucusundan istek alırım başka kabul etmem.
+	Burada hatırlarsanız seq num vardı, A sunucusuna kapalı porttan Ack yollarsak bize RST dönecek.
+	Sonra IP spoofing ile kendi ip 'mize A sunucu IP' sini yazdık ve B' ye yolladık.
+	Aralarında dönecek işlemler doğrultusunda (RST) portların açık/kapalı durumlarını öğrenebiliriz.
 
 Bunu nmap ile nasıl yapabiliriz?
 
