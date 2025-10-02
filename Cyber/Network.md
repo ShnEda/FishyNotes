@@ -55,14 +55,23 @@ Application Katmanındaki protokollerden bazıları: SMTP, FTP, IMap, SMB, SSH, 
 
 **SMTP**: Simple Mail Transfer Protocol, Port:25 fakat şu anda güncel ola-
 rak başka portlar kullanmakta, arkada TCP kullanılır.
+
 **FTP**: File Transfer Protocol, Port:**21**, TCP alt katmanında kullanılır.
+
 **IMap**: Port:**143**, TCP, mailleri almak için
+
 **SMB**: Port:**445**, Server message block, TCP
+
 **SSH**: SecureShell, Port:**22**, TCP
+
 **TelNet**: Uzaktan erişim için, PORT:**123**, TCP
+
 **DNS**: Domain Name Server, Port:**53**, UDP; HIZLI OLMAK İÇİN
+
 **RDP**: Remote Desktop, Port:**3389**
+
 **HTTP**: Hyper Text Transfer Protocol, Port: **80**, TCP
+
 **HTTPS**: secure hali, Port:**443**, TCP
 
 **Not**: *TCP/IP'de alttan üste doğru ilerlediğimizden bu şekilde buraya kadar anlattık.*
