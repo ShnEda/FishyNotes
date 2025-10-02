@@ -10,16 +10,5 @@
 ## Contents (Main Files)
 - Cyber
 
-### General
-
-- [GeneralCybSec.md](./Cyber/GeneralCybSec.md)
-
-### Network
-
-- [Network001.md](./Cyber/Network001.md)
-- [Network002.md](./Cyber/Network002.md)
-- [Network003.md](./Cyber/Network003.md)
-- [Network004.md](./Cyber/Network004.md)
-
 ---
 *🪼 Stay tuned for more notes 🪼*
