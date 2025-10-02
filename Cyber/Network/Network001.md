@@ -44,7 +44,7 @@ A bilgisayarı B'ye istek atsın.
 - Güvenilirlik
 - Port Farklılığı vb.
 
-**Not**: *Bozulma yaratmayacak şeyler UDP, email vb şeyler TCP ile yollanabilir.*
+> **Not**: *Bozulma yaratmayacak şeyler UDP, email vb şeyler TCP ile yollanabilir.*
 
 **ICMP**=> işleyiş: req yollanır aslında. Kendi içerisinde de farklı tip-
 leri bulunur. Örneğin ICMP type8 vb. **Nmap**te işimize yarar fakat kısa bir örnek göstereceğiz.
@@ -75,4 +75,4 @@ rak başka portlar kullanmakta, arkada TCP kullanılır.
 
 **HTTPS**: secure hali, Port:**443**, TCP
 
-**Not**: *TCP/IP'de alttan üste doğru ilerlediğimizden bu şekilde buraya kadar anlattık.*
+> **Not**: *TCP/IP'de alttan üste doğru ilerlediğimizden bu şekilde buraya kadar anlattık.*
