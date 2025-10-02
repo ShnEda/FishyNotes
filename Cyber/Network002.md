@@ -2,7 +2,7 @@
 
 Subnetting, bir IP adresini kendi alt ağlarına bölmesidir. Daha rahat anlayabilmek için şu şekilde gösterebilirz:
 
-	  -10.0.0.1/**16**
+	  -10.0.0.1/16
 
 **IP** dediğimiz şey nasıl işler?
 *0.0.0.0* ->4 bloktan oluşur, gidebileceği en yüksek sayı da 225'tir.
