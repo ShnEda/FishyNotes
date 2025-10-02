@@ -17,3 +17,10 @@ Büyük bir yer için 1 adet web app sec yetmeyecek. Şirketlerimiz de bu yoğun
 
 Bu istekleri dağıtacak şey de: **Load Balancer**. Verilerin saklanması için *DB(Data Base)* bulunur ve sunuculardan buraya bilgiler gider. Ancak büyük veri aktarımları durumunda büyük DB 'lere ihtiyaç duyulur. Bu DB 'lerle **cluster** 
 oluşturabiliyoruz. Buradaki serverlardan bir tanesi Master, kalanları da DATA gibi isimlerle adlandırılır. Master olanının ana işlevi ona atılan isteklerin diğer yerlerden çekmesi ve yönlendirmesi. Bunların ayrıca Replica diye adlandırılan DATA'ların yedekleri bulunur. 
+
+**SOC**=> Önceki örneğe devam edersek hepsiburadanın çalışanları  eleman olarak gözüksün. Artık Firewall 'ların *VPN* özellikleri de olduğundan local ağlara bağlanabilirler. Firewall 'da da WLAN özelliği bulunmakta. Bölümlere ayrılmış bu WLAN'ları SOC; bu bütün WLAN, DB, çalışanların bilgisayarlarını vb izler.
+	
+SOC tarafından yazılan *RULE*'lar barındırılarak belirli ürünler tarafından bu işlemler gerçekleştirilir. Bu yazılan kurallar arasında 
+
+	whoami
+komutunu terminalde yazmak istediğimizde alarm gidiyorsa yazılan kurallar bazında oynama yapılarak istediğimizi yazmaya çalışabiliriz.
