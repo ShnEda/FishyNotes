@@ -34,4 +34,9 @@ bağlanmamız için DNS ile istek atmamız gerekir.
 	    /|\   atmak istiyor, girmek istiyor. Önce bilgisayarının içerisinde
 		/ \   DNS ayarlarının olduğu /windows/System32/drivers/etc/hosts.conf
 		benzeri bir dosya path'i vardır.
-		    Bu adam gitsin 8.8.8.8 ile hepsiburadaya bağlanmak istesin. Google desin ki bn burayı bilmiyorum. Sonra bu adam 8.8.4.4 ile TLD serverına gider (TLD=TOP LEVEL DOMAIN). Burası da desin ki bende yok. Gideceği 3. server da ROOT server olacaktır. Doğrudan hepsiburadanın kendi DNS serverına gider. Eğer hepsiburadanın kendi serverında da yoksa yok artık. Bağlanırsa da artık TCP bağlantısı kurulmaya hazır denebilir.
+		    Bu adam gitsin 8.8.8.8 ile hepsiburadaya bağlanmak istesin.
+		Google desin ki bn burayı bilmiyorum. Sonra bu adam 8.8.4.4 ile TLD serverına gider
+		(TLD=TOP LEVEL DOMAIN). Burası da desin ki bende yok. Gideceği 3. server
+		da ROOT server olacaktır. Doğrudan hepsiburadanın kendi DNS serverına gider.
+		Eğer hepsiburadanın kendi serverında da yoksa yok artık.
+		Bağlanırsa da artık TCP bağlantısı kurulmaya hazır denebilir.
