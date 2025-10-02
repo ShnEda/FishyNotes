@@ -43,6 +43,7 @@ ile şifre kırılmış olur
 unzip ktu.zip
 ```
 Şifreyi giriyoruz
+
 ---
 
 ### hashcat
