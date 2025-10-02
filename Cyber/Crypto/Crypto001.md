@@ -20,6 +20,7 @@ Wordlist Oluşturma için **crunch aracı** kullanılabilir.
 crunch 3 3 .^, -o wordlist.txt
 ```
 (en basit kullanımı) Baktığımızda çok fazla kullanmıyoruz ancak gerekli durumlarda ihtiyaç duyulabilir.
+
 ---
 Küçük bir uygulama yaparsak: 
 ```
@@ -45,4 +46,5 @@ unzip ktu.zip
 ---
 
 ### hashcat
-``` hashcat -m 0 -a 0 md5.txt /usr/.../rockyou.txt ```  (path ı tam yazmadım) şeklinde de kırılabilir.
+``` hashcat -m 0 -a 0 md5.txt /usr/.../rockyou.txt ```
+(path ı tam yazmadım) şeklinde de kırılabilir.
