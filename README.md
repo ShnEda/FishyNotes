@@ -9,8 +9,8 @@
 
 ## Contents
 - Cyber
-  - [General](./General)
-  - [Network](./Network)
+  - [General](./Cyber/General)
+  - [Network](./Cyber/Network)
 
 ---
 *🪼 Stay tuned for more notes 🪼*
