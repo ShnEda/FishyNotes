@@ -31,8 +31,6 @@ Burada paketin doğruluğunu şu şekilde kontrol edebiliriz: **TCP**!
 
 Diyelim ki istenen bilgi Hello world ama en sondaki d harfi gitmemiş, bu durumda **parity check** yapıldı ve baktık ki bilgiler uyuşmuyor. Olmaması gereken bir durum gerçekleştiği için RST paketi ile cevap verilir.
 
-**PSH & URG** paketlerinin ismen hatırlamamız kafi
-
 **TCP** default port: **80**
 
 **UDP**=>User Datagram Protocol, 
