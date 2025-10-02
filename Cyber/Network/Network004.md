@@ -1,6 +1,6 @@
 ### Traceroute
 
-Sizin gitmek istediğiniz yere ulaşırken hangi bilgisayarlardan/*IP*'lerden adım adım geçtiğinizi gösterir. Local ağlar üzerinde giderken benim paketimin nerelerde takılı kaldığını/ nerelerden geçtiğini anlamamızı sağlayabilir veya aklımızda daha rahat canlandırmamızı sağlar*(network topolojisi)*
+Sizin gitmek istediğiniz yere ulaşırken hangi bilgisayarlardan/*IP*'lerden adım adım geçtiğinizi gösterir. Local ağlar üzerinde giderken benim paketimin nerelerde takılı kaldığını/ nerelerden geçtiğini anlamamızı sağlayabilir veya aklımızda daha rahat canlandırmamızı sağlar *(network topolojisi)*
 
 Kali'de:
 
@@ -23,3 +23,18 @@ Port yazıp erişim sağlanmaya çalışılabilir.
 Peki biz bu sırayla gördüğümüz adresleri nasıl görüyoruz? **TTL**!
 
 Ana mantık *TTL* üzerinden işliyor. Sizle ilk olarak ICMP isteğini attığımızı varsayalım. Bunun destination'ı google.com 'a gidecek. Bunun ICMP paketinin değerini 1 yapıyoruz. Paket öldüğü zaman paketin yolda öldü diye cevap veriyor. Bu şekilde haber ala ala öğrenmiş oluyoruz. TTL değeri cihazınızda zaten tanımlıdır. (TTL=Time to Live : paketin yaşama süresi gibi bir şey) Eğer paketin öldü demezse sonrakine geçerek *** şeklinde gösteriliyor.
+
+Bir paket aynı cihazdan iki defa geçmiş olamaz, demek ki bu cihazda bir NAT ağı var ki buradan iki kez geçiyor.
+
+ICMP ve TCP kullanarak yaptığımız traceroute çıktılarındaki fark bize hedefe giderken 4. adımda bir transparent proxyden geçtiğimizi gösterir. TCP paketi atılınca doğrudan paketten geçerek hedefe ulaşabiliyor. Aynı adım için gönderilen her paket farklı bir IP adresine sahip routerda kaldığı için farklı adresler görülür. 
+
+Youtube için:
+
+Linuxta:
+	
+		traceroute youtube.com
+Windowsta:
+
+		tracert youtube.com
+
+yapıldığında çıktıda 2 IP varsa burada loadbalancer var demektir. Bunun sebebi çok fazla kullanıcının ziyaret etmesi.
