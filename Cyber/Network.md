@@ -2,20 +2,23 @@
 
 Ya da isterseniz CISCO'nun paket trace diye bir uygulaması var onun üzerinden de inceleyebiliriz hem fiziksel hem de cihazlar arası.
 
-	O(A mac adresi olsun. 10.0.0.1 diye de ip si oldu)
+      O(A mac adresi olsun. 10.0.0.1 diye de ip si oldu)
         |
-O ------------- O(B mac adresi olsun. 10.0.0.4 ip'si)
+     O ------------- O(B mac adresi olsun. 10.0.0.4 ip'si)
         |
         O -> Böylece network ümüzü inşa ettik
 
 2. katmanda bulunan ip, switch, ICMP(ping atabiliriz), IGMP(ICMP ile alakalı)
 
 Başka bir ilde bulunan bir bağlantıyı sağlamak için kablo döşemek yerine LAN'ı icat ettik diyebiliriz.
+
 **LAN(Local area network)** -> belli bir bölgedeyken;
+
 **WAN(wide area network)** -> sayesinde uzak bölgelerde bulunan ağlara da bağlanmamızı sağlanabilir.
 
 Burada paketin doğruluğunu şu şekilde kontrol edebiliriz: **TCP**!
     Verinin güvenirliliği için TCP (3. katmanda: TCP ve UDP 'yi inşa etmiş oluruz, burada başka bir şey karşımıza çıkmaz diyebiliriz) paket açıldığında karşı taraf diyebilir ki artık bu paket doğrudur, eksiği olmadan ulaşmıştır. TCP dendiğinde akla gelecek ilk şey **üçlü el sıkışması** olabilir, bunu şöyle açıklayabiliriz: (sıra no önemli)
+	
         +A->B'ye SYNo paketi yollar. (sorguluyo B orda mı bağlantıya uygun mu)
         +B->A'ya SYN+Ack paketleriyle art arda yollama yapar.
 		+A->B'ye Ack yollar.
