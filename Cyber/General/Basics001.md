@@ -4,9 +4,9 @@
 
 **CIA üçgeni**nde bizi şunlar karşılar:
 
-	-**Confidentiality(Gizlilik)**: Bilginin yetkili insanlara bulunması
-	-**Integrity(Bütünlük)**: Bilginin değiştirilmemesi, tam olması
-	-**Availability(Erişilebilirlik)**: Bilginin yetkili insanlarca	ulaşılabilir olması
+	-Confidentiality(Gizlilik): Bilginin yetkili insanlara bulunması
+	-Integrity(Bütünlük): Bilginin değiştirilmemesi, tam olması
+	-Availability(Erişilebilirlik): Bilginin yetkili insanlarca	ulaşılabilir olması
 	
 2- Saldırı türlerini hedefe yönelik 2ye ayırdık:
 
