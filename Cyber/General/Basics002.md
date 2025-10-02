@@ -6,3 +6,5 @@ En çok kullanılan zafiyet isimlendirilmesi **CVE** (Common Vulnerabilities and
 
 > **Not**: CVElerin bir de skorlanma sistemi var. Öncelik yüksek olması. yüksek-orta-düşük gibisinden. Her bulduğunuz CVE nin bir önemi bulunur.
 
+### Zayıflık Tarayıcılar
+**Aktif** olarak: Nessus sektörde en çok kullanılan pentest aracı, OpenVAS ise Nessus un açık kaynak halidir alternatifidir. Aynı zamanda Acunetix, Netsparker da Tr'de kullanılan bazı araçlardır.
