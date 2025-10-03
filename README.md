@@ -16,7 +16,7 @@ d888 '88%"     8888      888R I888> 9888 'Y"   888R I888> d888 '88%"   8888     
    "YP'                                "P'                   "YP'                 ""       ""       ^Y"   ^Y'     "YP'                                      
 ```
 
-> Notepad ve nano dışı bir yere yazmam
+> Notepad dışı bir yere yazmam. (nano ile dosya düzenlemek hariç :D )
 
 > Bu REPO, daha çok kendim kullanmam ve notlarımın tek bir yerde tutulması için oluşturuldu. Daha sonra Write-Up'larımı da buraya koyabilirim.
 
