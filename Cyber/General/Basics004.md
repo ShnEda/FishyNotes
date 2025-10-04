@@ -20,7 +20,7 @@ Bir güvenlik uzmanının sistemde zafiyet bulma çalışmasıdır. Amacı sald�
 
 **DDoS ve Yük Testi:** İkisi arasındaki fark yük testi sistemin kapasitesini ölçmek için, DDoS testi ise servis dışı bırakma saldırılarına karşı dayanıklılığı test etmek için yapılır.
 
-**Sosyal Mühendislik:** Phishing gibi yöntemler. Şirketlerin bu tarz şeylere maruz kalmaması için önceden bir çalışma yapıyorlarmış.
+**Sosyal Mühendislik:** Phishing gibi yöntemler. Şirketlerin bu tarz şeylere maruz kalmaması için önceden bir çalışma yapabiliyorlar.
 
 **Kritik Altyapı Sistemleri Güvenliği:** Su altyapıları gibi sistemlerde arka planda kullanılan PLC dediğimiz bazı endüstriyel yazılımların zafiyetleri bulunmakta, amaç da bunu kontrol etmek. Vana açma kapama gibi işlemler.
 
