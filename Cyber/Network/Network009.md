@@ -1,5 +1,7 @@
 ## DHCP Starvation
 
+>   DHCP sunucusu cihazlara, havuzunda bulunan IP adreslerinden bu söylenen cihazlara otomatik olarak IP ataması yapmaya işe yarar. DNS sunucusu da alan adlarını IP adreslerine çevirerek erişimi mümkün kılar.
+
 DHCP (Dynamic Host Configuration Protocol) protokolünün çalışma mantığını bilmemiz gerekir. Saldırgan sahte MAC adresleri oluşturarak DHCP sunucusuna sürekli IP talebi gönderir. DHCP sunucusunun IP havuzu tükenir ve verebileceği IP kalmaz. Bu durumda yeni bağlanmak isteyen kullanıcılar ağa IP alamadığı için bağlanamaz.
 
 **Savunma:** DHCP sunucusunda limitler tanımlanarak bir cihazın aynı anda çok sayıda IP talebi yapması engellenebilir. Ayrıca MAC adresi başına maksimum istek sayısı belirlenmelidir.
