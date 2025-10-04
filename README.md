@@ -1,4 +1,4 @@
-# FishyNotes (TR-Turkish-Türkçe)
+# FishyNotes (TR-Turkish-Türkçe) [2024-?]
 > It's for my Turkish gang ILY <3
 
 ```
