@@ -57,8 +57,7 @@ A bilgisayarı B'ye istek atsın.
 
 > **Not**: *Bozulma yaratmayacak şeyler UDP, email vb şeyler TCP ile yollanabilir.*
 
-**ICMP**=> işleyiş: req yollanır aslında. Kendi içerisinde de farklı tip-
-leri bulunur. Örneğin ICMP type8 vb. **Nmap**te işimize yarar fakat kısa bir örnek göstereceğiz. ICMP ile bilgisayarın açık olup olmaması öğrenilebilir, silverfish ile reverse shell alınabilir veya birçok şey yapılabilir.
+**ICMP**=> işleyiş: req yollanır aslında. Kendi içerisinde de farklı tipleri bulunur. Örneğin ICMP type8 vb. **Nmap**te işimize yarar fakat kısa bir örnek göstereceğiz. ICMP ile bilgisayarın açık olup olmaması öğrenilebilir, silverfish ile reverse shell alınabilir veya birçok şey yapılabilir.
 
 Networkleri kullanarak bir dosya paylaşım sistemi yapalım dedik, bunun üzerine servisler ortaya çıktı. Bunlar email vb şeyler olabilir. Bunlar için de bir standart oluşturulmak istendi: **Application Katmanı**. İnternet sitesine istek atarken HTTP req yaparız. Aslında alt taraftaki protokolleri de kullanır. Daha detaylı şeklini daha sonra inceleyeceğiz.
 
