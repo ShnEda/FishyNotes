@@ -17,7 +17,7 @@ Ya da isterseniz CISCO'nun paket trace diye bir uygulaması var onun üzerinden 
         |
         O -> Böylece network ümüzü inşa ettik
 
-2. katmanda bulunan ip, switch, ICMP(ping atabiliriz), IGMP(ICMP ile alakalı)
+2. katmanda bulunan IP, switch, ICMP(ping atabiliriz), IGMP(ICMP ile alakalı)
 
 Başka bir ilde bulunan bir bağlantıyı sağlamak için kablo döşemek yerine LAN'ı icat ettik diyebiliriz.
 
