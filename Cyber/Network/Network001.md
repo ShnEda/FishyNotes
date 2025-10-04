@@ -1,8 +1,8 @@
 **TCP/IP**=> Bilgisayarlar arası ağ bağlantılarını simüle etmek için bir uygulama / websitesi vardı; bunun üzerinden rahatça yapılan sanal davranışlar rahatça görülebilir, örneklerle şekillendirilebilir.
 
 ### Hatırlatma
-	IP: Cihazların internet veya yerel ağ üzerinde birbirleriyle iletişim kurmasını sağlayan adresidir.
-    MAC: Bir ağ kartına (Ethernet/Wi-Fi) üretici tarafından atanmış 48 bitlik fiziksel adrestir.
+> IP: Cihazların internet veya yerel ağ üzerinde birbirleriyle iletişim kurmasını sağlayan adresidir.
+> MAC: Bir ağ kartına (Ethernet/Wi-Fi) üretici tarafından atanmış 48 bitlik fiziksel adrestir.
 
 Ya da isterseniz CISCO'nun paket trace diye bir uygulaması var onun üzerinden de inceleyebiliriz hem fiziksel hem de cihazlar arası.
 
