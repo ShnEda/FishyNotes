@@ -3,6 +3,10 @@
 ### Hatırlatma
 > IP: Cihazların internet veya yerel ağ üzerinde birbirleriyle iletişim kurmasını sağlayan adresidir.
 
+**Public IP Address**: Is unique and lets you be identified in a wider internet. 
+
+**Private IP Address**: Needs to be unique only within the network. Generally reserved within `192.168.X.X`
+
 > MAC: Bir ağ kartına (Ethernet/Wi-Fi) üretici tarafından atanmış 48 bitlik fiziksel adrestir.
 
 Ya da isterseniz CISCO'nun paket trace diye bir uygulaması var onun üzerinden de inceleyebiliriz hem fiziksel hem de cihazlar arası.
@@ -17,9 +21,9 @@ Ya da isterseniz CISCO'nun paket trace diye bir uygulaması var onun üzerinden 
 
 Başka bir ilde bulunan bir bağlantıyı sağlamak için kablo döşemek yerine LAN'ı icat ettik diyebiliriz.
 
-**LAN(Local area network)** -> belli bir bölgedeyken;
+**LAN(Local area network)** -> belli bir bölgedeyken, daha lokal biçimde benzer işlevi gösterir.
 
-**WAN(wide area network)** -> sayesinde uzak bölgelerde bulunan ağlara da bağlanmamızı sağlanabilir.
+**WAN(Wide area network)** -> sayesinde uzak bölgelerde bulunan ağlara da bağlanmamızı sağlanabilir, bilgisayar gruplarını geniş alanda geniş ağlarca bağlamaya yardımcı denebilir.
 
 Burada paketin doğruluğunu şu şekilde kontrol edebiliriz: **TCP**!
     Verinin güvenirliliği için TCP (3. katmanda: TCP ve UDP 'yi inşa etmiş oluruz, burada başka bir şey karşımıza çıkmaz diyebiliriz) paket açıldığında karşı taraf diyebilir ki artık bu paket doğrudur, eksiği olmadan ulaşmıştır. TCP dendiğinde akla gelecek ilk şey **üçlü el sıkışması** olabilir, bunu şöyle açıklayabiliriz: (sıra no önemli)
@@ -35,6 +39,8 @@ Burada paketin doğruluğunu şu şekilde kontrol edebiliriz: **TCP**!
 		Her istek atıldığında bu tekrarlanır.
 
 Diyelim ki istenen bilgi Hello world ama en sondaki d harfi gitmemiş, bu durumda **parity check** yapıldı ve baktık ki bilgiler uyuşmuyor. Olmaması gereken bir durum gerçekleştiği için RST paketi ile cevap verilir.
+
+> Port: Bağlantıların başlayıp durduğu sanal noktalar.
 
 **TCP** default port: **80**
 
@@ -52,8 +58,7 @@ A bilgisayarı B'ye istek atsın.
 > **Not**: *Bozulma yaratmayacak şeyler UDP, email vb şeyler TCP ile yollanabilir.*
 
 **ICMP**=> işleyiş: req yollanır aslında. Kendi içerisinde de farklı tip-
-leri bulunur. Örneğin ICMP type8 vb. **Nmap**te işimize yarar fakat kısa bir örnek göstereceğiz.
-    ICMP ile bilgisayarın açık olup olmaması öğrenilebilir, silverfish ile reverse shell alınabilir veya birçok şey yapılabilir.
+leri bulunur. Örneğin ICMP type8 vb. **Nmap**te işimize yarar fakat kısa bir örnek göstereceğiz. ICMP ile bilgisayarın açık olup olmaması öğrenilebilir, silverfish ile reverse shell alınabilir veya birçok şey yapılabilir.
 
 Networkleri kullanarak bir dosya paylaşım sistemi yapalım dedik, bunun üzerine servisler ortaya çıktı. Bunlar email vb şeyler olabilir. Bunlar için de bir standart oluşturulmak istendi: **Application Katmanı**. İnternet sitesine istek atarken HTTP req yaparız. Aslında alt taraftaki protokolleri de kullanır. Daha detaylı şeklini daha sonra inceleyeceğiz.
 
