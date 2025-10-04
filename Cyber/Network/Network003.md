@@ -1,3 +1,5 @@
+> *Bu dosya, içerisinde **WEB** konu başlıklarını içermektedir. Aynı bilgilerin benzerleri Cyber/WEB klasörü altında da incelenmektedir!!!*
+
 DNS Sorgu Tiplerine bakarsak: (Hepsini bilmeye gerek yok)
 
 	-A kaydı: O alan adının host ip sini söyler
