@@ -40,6 +40,11 @@ donanımsal iyileştirmeler yapılır.
 Verilerin saklanması için *DB(Data Base)* bulunur ve sunuculardan buraya bilgiler gider. Ancak büyük veri aktarımları durumunda büyük DB 'lere ihtiyaç duyulur. Bu DB 'lerle **cluster** 
 oluşturabiliyoruz. Buradaki serverlardan bir tanesi Master, kalanları da DATA gibi isimlerle adlandırılır. Master olanının ana işlevi ona atılan isteklerin diğer yerlerden çekmesi ve yönlendirmesi. Bunların ayrıca Replica diye adlandırılan DATA'ların yedekleri bulunur. 
 
+## IDS & IPS
+
+**IDS**, sistemlerin ağını izleyerek olası bir saldırı girişimini veya şüpheli aktiviteyi tespit etmeyi amaçlayan çözüm, **IPS**’in ise benzer şekilde ağı izlemekle beraber saldırıları engelleme ve durdurma özelliğine sahip olduğu öğrenildi. Bu önlemler gerektiğinde Firewall önü veya Firewall arkasına öncelik olarak kurulabilir.
+> Firewall, ağa gelen ve giden trafiği gerekli yöneticilerce belirtilmiş kurallar çerçevesinde filtreleme işlemi gerçekleştiren temel güvenlik çözümüdür. IDS/IPS ile kullanıldığında Firewall genel trafik kontrolü sağlarken IDS şüpheli hareketleri gözlemler ve IPS de bu hareketleri aktif olarak engeller.
+
 **SOC**=> Önceki örneğe devam edersek h####buradanın çalışanları eleman olarak gözüksün. Artık Firewall 'ların *VPN* özellikleri de olduğundan local ağlara bağlanabilirler. Firewall 'da da WLAN özelliği bulunmakta. Bölümlere ayrılmış bu WLAN'ları SOC; bu bütün WLAN, DB, çalışanların bilgisayarlarını vb izler.
 	
 SOC tarafından yazılan *RULE*'lar barındırılarak belirli ürünler tarafından bu işlemler gerçekleştirilir. Bu yazılan kurallar arasında 
