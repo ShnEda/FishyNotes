@@ -23,12 +23,14 @@ Firewall'ın amacı tamamen **network yönetimi**dir. Gelen ve giden paketleri i
 Büyük bir yer için 1 adet web app sec yetmeyecek. Şirketlerimiz de bu yoğunlukların önüne geçmek için kullandıkları şu yapı vardır: küçük küçük daha çok sunucu alırlar ve istekler bu birden fazla sunucu arasında dağıtılır.
 
 Bu istekleri dağıtacak şey de: **Load Balancer**.
-> # Load Balancer
-Normalde sitenize 1k istek geliyor fakat bir anda 10k istek gelmeye başladı. Bu durumda load balancer yapısıyla sunucunun çökmesini engellemek için birtakım işler yapıyor, 3-4 farklı instance'a bölmek gibi.
-	>Bazı kullanım yöntemleri var:
-	**Scale-Out (Horizontal Scaling):** Aynı boyutta farklı sunucular eklemek. Yük arttığında yan yana yeni sunucular ekleyerek kapasiteyi artırır.
-	**Scale-Up (Vertical Scaling):** Mevcut sunucunun kaynak artırımı. 2 GB RAM'i 4 GB'a çıkarmak, CPU sayısını artırmak gibi donanımsal iyileştirmeler yapılır.
+```
+# Load Balancer
+	Normalde sitenize 1k istek geliyor fakat bir anda 10k istek gelmeye başladı. Bu durumda load balancer yapısıyla sunucunun çökmesini engellemek için birtakım işler yapıyor, 3-4 farklı instance'a bölmek gibi.
 
+Bazı kullanım yöntemleri var:
+	Scale-Out (Horizontal Scaling): Aynı boyutta farklı sunucular eklemek. Yük arttığında yan yana yeni sunucular ekleyerek kapasiteyi artırır.
+	Scale-Up (Vertical Scaling): Mevcut sunucunun kaynak artırımı. 2 GB RAM'i 4 GB'a çıkarmak, CPU sayısını artırmak gibi donanımsal iyileştirmeler yapılır.
+```
 
 Verilerin saklanması için *DB(Data Base)* bulunur ve sunuculardan buraya bilgiler gider. Ancak büyük veri aktarımları durumunda büyük DB 'lere ihtiyaç duyulur. Bu DB 'lerle **cluster** 
 oluşturabiliyoruz. Buradaki serverlardan bir tanesi Master, kalanları da DATA gibi isimlerle adlandırılır. Master olanının ana işlevi ona atılan isteklerin diğer yerlerden çekmesi ve yönlendirmesi. Bunların ayrıca Replica diye adlandırılan DATA'ların yedekleri bulunur. 
