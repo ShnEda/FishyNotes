@@ -14,9 +14,9 @@ Biz bunu yazıp üzerine * işareti çıkarsa bunun nedeni ya bir switch ya da f
 
 1- UDP paketleriyle erişilmeye çalışılabilir
 
-2- -I eklersek ICMP paketleri yollayıp ilerlenebilir
+2- `-I` eklersek ICMP paketleri yollayıp ilerlenebilir
 
-3- -T kullanarak TCP paketleriyle yollanıp ilerlenebilir
+3- `-T` kullanarak TCP paketleriyle yollanıp ilerlenebilir
 
 Port yazıp erişim sağlanmaya çalışılabilir.
 
