@@ -26,7 +26,6 @@ d888 '88%"     8888      888R I888> 9888 'Y"   888R I888> d888 '88%"   8888     
 
 ## İçerik
 - Cyber
-  - [Crypto](./Cyber/Crypto)
   - [General](./Cyber/General)
   - [Network](./Cyber/Network)
   - [WEB](./Cyber/WEB)
