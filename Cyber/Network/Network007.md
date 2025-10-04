@@ -10,3 +10,6 @@ Genel bir ağdaki bir network içerisinde bütün düzenlemeyi sağlar. Kurallar
 -Uygulama katmanında çalışır. Protokol datası incelenerek uyg. özelliğine göre incelenebilir.
 ### -Proxy Firewall
 -Üzerinde çok durulmadı ama kısaca Proxy'ler istemci ile sunucu arasında bir köprü oluşturur ve tam bir oturum analizi yapabilir.
+
+## VPN (Virtual Private Network)
+Günlük kullandığımız VPN servislerinin aksine **kurumsal** VPN’ler şirket çalışanlarının, uzaktan şirketin sistemine güvenli şekilde bağlanmalarını sağlar ve tıpkı ofiste gibi şirket ağına bağlanarak fiziksel ofisteymiş gibi şirket sistemlerine, dosya sunucularına ve diğer ağ kaynaklarına erişim sağlayabilir. Bu yapı, hem güvenliği artırır hem de esnek çalışma imkânı sunar.
