@@ -29,6 +29,7 @@ d888 '88%"     8888      888R I888> 9888 'Y"   888R I888> d888 '88%"   8888     
   - [General](./Cyber/General)
   - [Network](./Cyber/Network)
   - [WEB](./Cyber/WEB)
+  - [Reverse](./Cyber/Reverse)
 
 ---
 *🪼 Daha fazla notlar için benimle kalın 🪼*
