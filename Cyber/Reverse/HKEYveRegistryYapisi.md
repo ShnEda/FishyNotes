@@ -9,6 +9,9 @@ Daemon, Unix tabanlı sistemlerde sürekli çalışan bir *arka plan süreci*dir
 
 **HKEY (Handle to Registry Key)**, Windows Registry'de bir anahtara erişim sağlayan **handle** (tanımlayıcı) türüdür. Registry üzerinde işlem yapmak için mutlaka bir HKEY değişkeni kullanılır.
 
+>    Sistemde handle, bir tanımlayıcıdır. Örneğin bir kayıt anahtarı (key) oluşturup bir değer atadığımızda, bu değerin hangi anahtara ait olduğunu belirtmemiz gerekir. Bu tanımlama işlemi handle ile yapılır. Handle’ını verdiğimiz dosyayı açabiliriz, veri yazmamız gerektiğinde de yine bu handle üzerinden işlem yapılır. Yani tanımlayıcısını verdiğimiz nesneye, handle aracılığıyla erişilir. Örneğin HKEY hKey bir handle’dır. Handle açıldıktan sonra mutlaka kapatılmalıdır, aksi halde arka planda çalışmaya devam eder ve sistem kaynağı tüketir. RegCloseKey fonksiyonu da bu handle’ı kapatmak için kullanılan bir API’dir.
+
+
 ```c
 HKEY hKey;  // Registry handle tanımlaması
 ```
