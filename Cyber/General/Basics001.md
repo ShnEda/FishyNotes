@@ -18,6 +18,24 @@
 		-Botnet saldırıları
 		-Solucanlar vb.
 		
+> ## Zararlı Yazılım (Malware) Türleri
+	-**Virüs**: Kendini diğer dosyalara bulaştırarak çoğalan ve zarar veren yazılımlar.
+	-**Trojan (Truva Atı)**: Yararlı gibi görünen ama arka planda kötü amaçlı işler yapan yazılım.
+	-**Spyware (Casus Yazılım)**: Kullanıcının bilgilerini gizlice toplayan yazılım.
+	-**Keylogger**: Klavye girişlerini kaydedip şifre gibi bilgileri çalan yazılım.
+	-**Ransomware**: Dosyaları şifreleyip, açmak için fidye isteyen yazılım.
+	-**Worm (Solucan)**: Kendi kendine çoğalıp ağ üzerinden yayılabilen zararlı yazılım.
+	-**Rootkit**: Sisteme gizlice sızıp yönetici yetkisi kazanan yazılım.
+	-**Adware**: Kullanıcıya sürekli reklam göstererek rahatsız eden yazılım.
+	-**Stealer**: Şifre, çerez, kripto cüzdan bilgileri gibi hassas verileri çalan yazılım.
+
+> ## Saldırganların Motivasyon ve Hedefleri
+	-**Finansal Kazanç**: Fidye, kredi kartı bilgisi veya kripto cüzdanları çalarak gelir elde etme.
+	-**Casusluk**: Devlet veya şirket bilgilerini toplamak.
+	-**İtibar Zedeleme**: Rakip firmalara veya bireylere zarar vermek.
+	-**Eğlence / Ego**: “Hackledim” diyebilmek, prestij kazanmak.
+	-**İdeolojik Nedenler**: Hacktivizm (politik/sosyal mesaj verme).
+
 3- saldırganların kimlerin olabileceği
 
 	-Kurum içi çalışanlar
