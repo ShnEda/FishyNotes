@@ -1,6 +1,11 @@
 # Daemon & Registry Keys
 Daemon, Unix tabanlı sistemlerde sürekli çalışan bir *arka plan süreci*dir ve genellikle sistem açıldığında başlar. Günlük kaydı yapma isteklerini işleme ve yazıcıları yönetme gibi görevleri yerine getirir ve kullanıcı ile doğrudan etkileşimde bulunmaz.
 
+> Process: Süreç anlamına gelir. Çalışması için en az 1 thread'e ihtiyacı bulunmaktadır.
+> Thread: Bir OS içinde çalışan bağımsız bir iş parçacığı denebilir.
+> Process creation: Bir OS'te yeni bir sürecin (process) oluşturulmasıdır. Bu işlem sırasınca OS, çalıştırılacak programa sanal adres alanı, gerekli kaynak tanımlanması, yürütülebilir kod ve en az 1 thread tanımlar.
+> PID: Process ID
+
 **Reg Keys**, Wnd'de OS ve uygulamalar için *düşük seviyeli ayarların* saklandığı hiyerarşik veri tabanıdır. Sistem donanımı, yazılım ayarları, kullanıcı tercihleri ve servis yapılandırmaları gibi birçok bilgiyi içerir.
 
 **RegCreateKeyExA**:Belirtilen kayıt defteri anahtarını oluşturur. Eğer anahtar zaten mevcutsa, fonksiyon onu açar. Anahtar isimlerinin büyük/küçük harf duyarlı olmadığını unutmayın.
