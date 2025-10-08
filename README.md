@@ -15,15 +15,6 @@ d888 '88%"     8888      888R I888> 9888 'Y"   888R I888> d888 '88%"   8888     
  "88888%   ` "Y   Y"       'Y"       "8888P'     'Y"       "88888%      'Y"      R888"  `"888*""   "888*""888"  "88888%   
    "YP'                                "P'                   "YP'                 ""       ""       ^Y"   ^Y'     "YP'                                      
 ```
-
-> Notepad dışı bir yere yazmam. (nano ile dosya düzenlemek hariç :D )
-
-> Bu REPO, daha çok kendim kullanmam ve notlarımın tek bir yerde tutulması için oluşturuldu. Daha sonra Write-Up'larımı da buraya koyabilirim.
-
-> Eğer bir yerde hata yakalarsanız iletişime geçebilirsiniz.
-
----
-
 ## İçerik
 - Cyber
   - [General](./Cyber/General)
@@ -32,4 +23,12 @@ d888 '88%"     8888      888R I888> 9888 'Y"   888R I888> d888 '88%"   8888     
   - [Reverse](./Cyber/Reverse)
 
 ---
+> Notepad dışı bir yere yazmam. (nano ile dosya düzenlemek hariç :D )
+
+> Bu REPO, daha çok kendim kullanmam ve notlarımın tek bir yerde tutulması için oluşturuldu. Daha sonra Write-Up'larımı da buraya koyabilirim.
+
+> Eğer bir yerde hata yakalarsanız iletişime geçebilirsiniz.
+
+---
+
 *🪼 Daha fazla notlar için benimle kalın 🪼*
