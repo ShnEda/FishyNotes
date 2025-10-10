@@ -74,7 +74,7 @@ rak başka portlar kullanmakta, arkada TCP kullanılır.
 
 **SSH**: SecureShell, Port:**22**, TCP
 
-**TelNet**: Uzaktan erişim için, PORT:**123**, TCP
+**TelNet**: Uzaktan erişim için, PORT:**23**, TCP
 
 **DNS**: Domain Name Server, Port:**53**, UDP; HIZLI OLMAK İÇİN
 
