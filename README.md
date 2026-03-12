@@ -1,4 +1,4 @@
-# FishyNotes (TR-Turkish-Türkçe) [2024-?]
+# FishyNotes (TR-Turkish-Türkçe) [2024-2025]
 > It's for my Turkish gang ILY <3
 
 ```
@@ -27,7 +27,7 @@ d888 '88%"     8888      888R I888> 9888 'Y"   888R I888> d888 '88%"   8888     
 
 > Bu REPO, daha çok kendim kullanmam ve notlarımın tek bir yerde tutulması için oluşturuldu. Daha sonra Write-Up'larımı da buraya koyabilirim.
 
-> ACİLİNDEN GÜNCELLEME GEREK EN SON 5 AY ÖNCE GUNCELLEDİM BURAYI NETWORK + FORENSICS NOTLARIMI GUNCELLEYECEĞİM :3
+> Diğer notlarımı başka bir şekilde başka bir yerde paylaşmayı planlıyorum
 
 > Eğer bir yerde hata yakalarsanız iletişime geçebilirsiniz.
 
