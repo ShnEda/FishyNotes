@@ -27,7 +27,7 @@ d888 '88%"     8888      888R I888> 9888 'Y"   888R I888> d888 '88%"   8888     
 
 > Bu REPO, daha çok kendim kullanmam ve notlarımın tek bir yerde tutulması için oluşturuldu. Daha sonra Write-Up'larımı da buraya koyabilirim.
 
-> Diğer notlarımı başka bir şekilde başka bir yerde paylaşmayı planlıyorum
+> Diğer Forensics notlarımı başka bir şekilde başka bir yerde paylaşmayı planlıyorum
 
 > Eğer bir yerde hata yakalarsanız iletişime geçebilirsiniz.
 
